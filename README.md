@@ -69,7 +69,7 @@ Please refer to [Project Report]() for further description
 - Make sure all dependancies are met
 - Ensure the location of the input video files are correct in the code you're running
 - Comment/Uncomment as reqd
-
+------------
 - RUN Cropping.py if you want to create a new Dataset
 - RUN EM.py if you want to implemenet EM from scratch for a randomly generated dataset
 - RUN Project_3.py as is for Buoy Detection

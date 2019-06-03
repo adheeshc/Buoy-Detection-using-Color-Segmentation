@@ -53,12 +53,7 @@ We see this method gives us bad results, however it does detect the buoys, we th
 
 ### Learning Color Models
 
-Now we extend the previous concepts and implementations of 1D gaussians and EM techniques to achieve the original goal of segmenting the buoys
-
-- For each color, I have already computed and visualized the color histogram for each channel of the sampled/cropped images
-gathered during the data preparation phase. This will provide some intuition on the number of Gaussians [N] required to fit to the color histogram. I have also tried to determine the dimension [D] of each Gaussian for the model
-- Then I use the previously implemented EM algorithm to compute the model parameters, i.e. the means and
-variances of the N D-dimensional Gaussian.
+Now we extend the previous concepts and implementations of **1D gaussians** and **EM technique** to achieve the original goal of segmenting the buoys
 
 #### 1D EM Implementation for Color Analysis
 
@@ -80,6 +75,10 @@ variances of the N D-dimensional Gaussian.
   <img src="/Images/3d_gaussian.png" alt="Multivariate">
 </p>
 
+- For each color, I have already computed and visualized the color histogram for each channel of the sampled/cropped images
+gathered during the data preparation phase. This will provide some intuition on the number of Gaussians [N] required to fit to the color histogram. I have also tried to determine the dimension [D] of each Gaussian for the model
+- Then I use the previously implemented EM algorithm to compute the model parameters, i.e. the means and
+variances of the N D-dimensional Gaussian.
 
 ### Final Buoy Detection
 

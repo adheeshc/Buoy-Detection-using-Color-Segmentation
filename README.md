@@ -4,7 +4,7 @@
 
 The aim of this project is to
 
-Please refer to [Project Report]() for further description
+Please refer to [Project Report](https://github.com/adheeshc/Buoy-Detection-using-Color-Segmentation/blob/master/Report/Final%20Report.pdf) for further description
 
 ### Preparing the Input
 
@@ -62,14 +62,14 @@ Please refer to [Project Report]() for further description
 
 - Output folder - Contains output videos
 
-- Report folder - Contains [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf)
+- Report folder - Contains [Project Report](https://github.com/adheeshc/Buoy-Detection-using-Color-Segmentation/blob/master/Report/Final%20Report.pdf)
 
 ## **RUN INSTRUCTIONS**
 
 - Make sure all dependancies are met
 - Ensure the location of the input video files are correct in the code you're running
 - Comment/Uncomment as reqd
-------------
+
 - RUN Cropping.py if you want to create a new Dataset
 - RUN EM.py if you want to implemenet EM from scratch for a randomly generated dataset
 - RUN Project_3.py as is for Buoy Detection
